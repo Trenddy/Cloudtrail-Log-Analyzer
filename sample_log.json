@@ -1,0 +1,94 @@
+{
+  "Records": [
+    {
+      "eventName": "ConsoleLogin",
+      "eventTime": "2026-05-29T14:23:11Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "john.doe"
+      },
+      "additionalEventData": {
+        "MFAUsed": "No"
+      }
+    },
+    {
+      "eventName": "ListBuckets",
+      "eventTime": "2026-05-29T14:25:00Z",
+      "userIdentity": {
+        "type": "Root"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "DescribeInstances",
+      "eventTime": "2026-05-29T14:26:00Z",
+      "userIdentity": {
+        "type": "Root"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "GetObject",
+      "eventTime": "2026-05-29T14:30:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "jane.doe"
+      },
+      "errorCode": "AccessDenied"
+    },
+    {
+      "eventName": "PutObject",
+      "eventTime": "2026-05-29T14:31:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "jane.doe"
+      },
+      "errorCode": "UnauthorizedOperation"
+    },
+    {
+      "eventName": "PutRolePolicy",
+      "eventTime": "2026-05-29T14:45:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "admin.user"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "AttachRolePolicy",
+      "eventTime": "2026-05-29T14:46:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "admin.user"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "DescribeSecurityGroups",
+      "eventTime": "2026-05-29T15:00:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "john.doe"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "DescribeInstances",
+      "eventTime": "2026-05-29T15:01:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "john.doe"
+      },
+      "errorCode": ""
+    },
+    {
+      "eventName": "GetObject",
+      "eventTime": "2026-05-29T15:02:00Z",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "john.doe"
+      },
+      "errorCode": ""
+    }
+  ]
+}
